@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AirPods Reseller</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1603898037225-6f23672b3169') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    }
+
+    .hero h2 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    .content {
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 280px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+    }
+
+    .card p {
+      color: #777;
+    }
+
+    .card button {
+      background: #000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media(max-width: 600px) {
+      .hero h2 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Premium AirPods - Resell Store</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Get AirPods for Less</h2>
+  </section>
+
+  <section class="content">
+    <h2 style="text-align:center;">Shop Now</h2>
+    <div class="product">
+      <div class="card">
+        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWP22?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1591634795000" alt="AirPods Pro">
+        <h3>AirPods Pro</h3>
+        <p>Noise-cancelling, wireless, brand-new.</p>
+        <strong>$179</strong>
+        <br>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MVL3E?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1632861333000" alt="AirPods 3rd Gen">
+        <h3>AirPods (3rd Gen)</h3>
+        <p>Spatial audio, MagSafe case included.</p>
+        <strong>$149</strong>
+        <br>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1632861327000" alt="AirPods 2nd Gen">
+        <h3>AirPods (2nd Gen)</h3>
+        <p>Simple. Reliable. Affordable.</p>
+        <strong>$99</strong>
+        <br>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 AirPods Reseller. All rights reserved.
+  </footer>
+
+</body>
+</html>
